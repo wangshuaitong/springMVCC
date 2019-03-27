@@ -28,7 +28,7 @@ public class LoginServlet {
     @RequestMapping(value = "/test/{bookid}")
     public String test(@PathVariable("bookid") String id){
 
-        System.out.println(id);
+        //System.out.println(id);
         System.out.println("查询书籍"+id);
         return "login";
     }
